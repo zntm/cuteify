@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"cuteify",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
@@ -18,15 +19,18 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1300.0.768",
+    "IDEVersion":"2024.14.2.213",
   },
   "name":"cuteify",
   "resources":[
+    {"id":{"name":"obj_Control","path":"objects/obj_Control/obj_Control.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"cuteify_get_colour","path":"scripts/cuteify_get_colour/cuteify_get_colour.yy",},},
     {"id":{"name":"cuteify_get_height","path":"scripts/cuteify_get_height/cuteify_get_height.yy",},},
     {"id":{"name":"cuteify_get_width","path":"scripts/cuteify_get_width/cuteify_get_width.yy",},},
+    {"id":{"name":"cuteify_parse","path":"scripts/cuteify_parse/cuteify_parse.yy",},},
     {"id":{"name":"draw_text_cuteify","path":"scripts/draw_text_cuteify/draw_text_cuteify.yy",},},
+    {"id":{"name":"hex_parse","path":"scripts/hex_parse/hex_parse.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"cuteify_parse",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cuteify_parse",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
