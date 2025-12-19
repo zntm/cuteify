@@ -9,8 +9,8 @@
   "name":"obj_Control",
   "overriddenProperties":[],
   "parent":{
-    "name":"cuteify",
-    "path":"cuteify.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
